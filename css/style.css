@@ -1,0 +1,104 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+   font-family: Lato, serif;
+   color: #424551;
+   line-height: 1.66;
+  
+}
+
+.area-header .border-header h1{
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 60px;
+   color: #1E212C;
+}
+
+.area-header{
+   margin-bottom: 40px;
+}
+
+[class*="border-"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.content-image {
+   width: 100%;
+   margin-bottom: 60px;
+}
+
+.bold{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color:#1E212C;
+}
+
+.p-one {
+   margin-bottom: 24px;
+}
+.p-two {
+   margin-bottom: 25.6px;
+}
+.p-three {
+   margin-bottom: 48px;
+}
+.p-fore {
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+.p-five {
+   margin-bottom: 24px;
+}
+.list {
+   line-height: 26px;
+   padding-left: 32px;
+   margin-bottom: 24px;
+}
+
+.area-content{
+   margin-bottom: 25px;
+   border-bottom: 2px solid greenyellow;
+}
+
+[class*="border-background"]{
+   border: 1px solid black;
+   background-color: orange;
+   height: 400px;
+   font-size: 18px;
+   font-weight: 700;
+   background-image: url(../img/main.png);
+   background-repeat: no-repeat;
+   margin-bottom: 25px;
+}
+
+.border-background-x{
+   background-repeat: repeat-x;
+}
+
+.border-background-y{
+   background-repeat: repeat-y;
+}
+
+.border-background-posicion{
+      background-position: center;
+}
+
+.border-background-attachment{
+   background-image: url(../img/image.jpg);
+   background-attachment: fixed;
+}
+
+.border-background-size-contain{
+   background-size: contain;
+}
+
+.border-background-size-cover{
+   background-size: cover;
+}
+
+.border-background-mix{
+   background:url(../img/main.png) no-repeat 25px 50px, url(../img/image.jpg) no-repeat center , radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) ;
+}
