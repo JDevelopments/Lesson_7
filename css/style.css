@@ -11,7 +11,7 @@ body{
 .area-header .border-header h1{
    font-size: 46px;
    font-weight: 900;
-   line-height: 60px;
+   line-height: 130%;
    color: #1E212C;
 }
 
